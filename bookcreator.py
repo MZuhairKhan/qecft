@@ -45,7 +45,7 @@ template = env.get_template('page.html')
 
 
 def convert_section_to_html(section):
-    """Convert ipynb to md."""
+    """Convert ipynb to html."""
     j2_vars = {
         'SITENAME': SITENAME,
         'SITEURL': SITEURL,
